@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="outer">
+
+        <section class="form_container">
+
+            <div class="heading">Enter Below Details</div>
+    
+            <div class="invalid_text"></div>
+    
+            <form class="form_decoration" onsubmit="event.preventDefault(); return formWork()">
+    
+                <label for="firstname">First Name</label> 
+                <input class="input" type="text" name="firstname" id="firstname" placeholder="First Name"/>
+
+                <label for="lastname">Last Name</label> 
+                <input class="input" type="text" name="lastname" id="lastname" placeholder="Last Name"/>
+
+                <label for="dob">D.o.b</label> 
+                <input class="input" type="date" name="dob" id="dob" placeholder="Date Of Birth"/>
+                
+                <label for="email">Email Id</label>
+                <input class="input" type="text" name="email" id="email" placeholder="E-mail"/>
+
+                <label for="state">Select Your state :</label>
+                <select name="state" id="state">
+                  <option value="delhi">Delhi</option>
+                  <option value="haryana">Haryana</option>
+                  <option value="punjab">Punjab</option>
+                  <option value="mumbai">Mumbai</option>
+                  <option value="banglore">Banglore</option>
+                  <option value="bihar">Bihar</option>
+                </select>
+                
+                
+                <div class="success_message"></div>
+    
+    
+                <div>
+                    <button type="submit" class="form_submission">Enter</button>
+                </div>
+                  
+            </form>
+         
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+
+   
+<script src="script.js"></script>
+    
+</body>
+</html>
