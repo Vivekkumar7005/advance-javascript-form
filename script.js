@@ -32,13 +32,77 @@ document.querySelector('.form_submission').addEventListener('click', function(){
 
 })
 
+
+document.querySelector('.edit_done_1').addEventListener('click', function(){
+
+    document.querySelector('.value_1').style.backgroundColor = 'green'
+  
+})
+document.querySelector('.edit_done_2').addEventListener('click', function(){
+
+    document.querySelector('.value_2').style.backgroundColor = 'green'
+  
+})
+document.querySelector('.edit_done_3').addEventListener('click', function(){
+
+    document.querySelector('.value_3').style.backgroundColor = 'green'
+  
+})
+document.querySelector('.edit_done_4').addEventListener('click', function(){
+
+    document.querySelector('.value_4').style.backgroundColor = 'green'
+  
+})
+document.querySelector('.edit_done_5').addEventListener('click', function(){
+
+    document.querySelector('.value_5').style.backgroundColor = 'green'
+  
+})
+
+
+
+
+document.querySelector('.delete_done_1').addEventListener('click', function(){
+
+    document.querySelector('.value_1').innerText = ''
+   
+})
+
+document.querySelector('.delete_done_2').addEventListener('click', function(){
+
+    document.querySelector('.value_2').innerText = ''
+   
+})
+document.querySelector('.delete_done_3').addEventListener('click', function(){
+
+    document.querySelector('.value_3').innerText = ''
+   
+})
+document.querySelector('.delete_done_4').addEventListener('click', function(){
+
+    document.querySelector('.value_4').innerText = ''
+   
+})
+document.querySelector('.delete_done_5').addEventListener('click', function(){
+
+    document.querySelector('.value_5').innerText = ''
+   
+})
+
+
 document.querySelector('.preview_submission').addEventListener('click', function(){
+
+    document.querySelector('.popup').style.display = 'none'
 
     document.querySelector('.success_message').innerText = 'Details submitted successfully !!!'
 
-
-
 })
+
+
+
+
+
+
 
 
 
